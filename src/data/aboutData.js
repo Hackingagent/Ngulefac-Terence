@@ -1,5 +1,7 @@
+import image from '../assets/terence.jpg';
+
 export const aboutData = {
-    image: 'https://via.placeholder.com/400x400', // Replace with your image
+    image: image, // Replace with your image
     experience: '3+ Years',
     skillsCount: 15,
     projectsCount: 20,
