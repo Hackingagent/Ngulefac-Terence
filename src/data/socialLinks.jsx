@@ -5,7 +5,7 @@ export const socialLinks = [
   {
     id: 1,
     name: 'GitHub',
-    url: 'https://github.com/yourusername',
+    url: 'https://github.com/Hackingagent',
     icon: <FaGithub />,
   },
   {
@@ -29,7 +29,7 @@ export const socialLinks = [
   {
     id: 5,
     name: 'Email',
-    url: 'mailto:your.email@example.com',
+    url: 'mailto:your.terencen143@icloud.com',
     icon: <HiOutlineMail />,
   },
 ];

@@ -7,11 +7,11 @@ export const skillsData = [
     skills: [
       { name: 'React', icon: <FaReact />, level: 90 },
       { name: 'JavaScript', icon: <FaJs />, level: 85 },
-      { name: 'TypeScript', icon: <SiTypescript />, level: 75 },
+      // { name: 'TypeScript', icon: <SiTypescript />, level: 75 },
       { name: 'HTML5', icon: <FaHtml5 />, level: 95 },
       { name: 'CSS3', icon: <FaCss3Alt />, level: 90 },
       { name: 'Redux', icon: <SiRedux />, level: 80 },
-      { name: 'Next.js', icon: <SiNextdotjs />, level: 70 },
+      // { name: 'Next.js', icon: <SiNextdotjs />, level: 70 },
     ],
   },
   {
@@ -20,7 +20,7 @@ export const skillsData = [
       { name: 'Node.js', icon: <FaNodeJs />, level: 85 },
       { name: 'Express', icon: <FaNodeJs />, level: 80 },
       { name: 'MongoDB', icon: <SiMongodb />, level: 75 },
-      { name: 'GraphQL', icon: <SiGraphql />, level: 70 },
+      // { name: 'GraphQL', icon: <SiGraphql />, level: 70 },
     ],
   },
   {
