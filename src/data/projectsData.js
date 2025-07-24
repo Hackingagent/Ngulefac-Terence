@@ -1,23 +1,26 @@
+import complain from '../assets/images/projects/student_complain.jpeg'
+import grant from '../assets/images/projects/grant_ease.jpg';
+
 export const projectsData = [
     {
       id: 1,
-      title: 'E-commerce Platform',
+      title: 'Grant Ease',
       description:
-        'A full-featured e-commerce platform with product listings, cart functionality, and payment processing.',
-      image: 'https://via.placeholder.com/600x400',
-      tags: ['Web', 'React', 'Node.js'],
-      github: 'https://github.com/yourusername/ecommerce',
-      demo: 'https://ecommerce-demo.com',
+        'A fully function web application that digitalize the verification and disbursment process of the Presidential 50k student grant in higher institutions',
+      image: grant,
+      tags: ['Web', 'python', 'React', 'Laravel', 'REST API'],
+      github: 'https://github.com/Hackingagent/Greant-ease-my-final-year-peoject-.git',
+      // demo: 'https://ecommerce-demo.com',
     },
     {
       id: 2,
-      title: 'Task Management App',
+      title: 'Student Complain Management System',
       description:
-        'A productivity application for managing tasks with drag-and-drop functionality and team collaboration.',
-      image: 'https://via.placeholder.com/600x400',
-      tags: ['Web', 'React', 'Firebase'],
-      github: 'https://github.com/yourusername/task-app',
-      demo: 'https://task-app-demo.com',
+        'A web based application that facilitates the complain submission and management system in Higher Institutions (Universities)',
+      image: complain,
+      tags: ['Web', 'Laravel', 'MySQL'],
+      github: 'https://github.com/Hackingagent/Student-Complaint-Franklin.git',
+      demo: 'https://complain.infinityfreeapp.com/',
     },
     {
       id: 3,

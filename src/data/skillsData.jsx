@@ -1,5 +1,5 @@
-import { FaReact, FaNodeJs, FaJs, FaHtml5, FaFigma, FaCss3Alt, FaGitAlt, FaDocker, FaAws } from 'react-icons/fa';
-import { SiTypescript, SiMongodb, SiGraphql, SiRedux, SiNextdotjs } from 'react-icons/si';
+import { FaReact, FaNodeJs, FaJs, FaHtml5, FaFigma, FaCss3Alt, FaGitAlt, FaDocker, FaAws, FaLaravel } from 'react-icons/fa';
+import { SiTypescript, SiMongodb, SiGraphql, SiRedux, SiNextdotjs, SiExpress } from 'react-icons/si';
 
 export const skillsData = [
   {
@@ -17,8 +17,9 @@ export const skillsData = [
   {
     category: 'Backend',
     skills: [
-      { name: 'Node.js', icon: <FaNodeJs />, level: 85 },
-      { name: 'Express', icon: <FaNodeJs />, level: 80 },
+      { name: 'Laravel', icon: <FaLaravel />, level: 85 },
+      { name: 'Node.js', icon: <FaNodeJs />, level: 75 },
+      { name: 'Express', icon: <SiExpress />, level: 50 },
       { name: 'MongoDB', icon: <SiMongodb />, level: 75 },
       // { name: 'GraphQL', icon: <SiGraphql />, level: 70 },
     ],

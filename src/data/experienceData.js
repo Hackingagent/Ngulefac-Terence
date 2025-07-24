@@ -1,26 +1,26 @@
 export const experienceData = [
     {
       id: 1,
-      position: 'Senior Software Engineer',
-      company: 'Tech Solutions Inc.',
-      date: '2021 - Present',
+      position: 'Chief Technology Officer (CTO)',
+      company: 'Jabuh.cm',
+      date: '2025 - Present',
       description:
-        'Led a team of developers in building enterprise-level applications. Implemented new features, optimized performance, and mentored junior developers.',
+        'Led a team of developers in building and maintaining jabuh.cm web and mobile application. Implement new features, optimized performance, and mentor junior developers.',
     },
     {
       id: 2,
-      position: 'Software Developer',
-      company: 'Digital Innovations',
-      date: '2019 - 2021',
+      position: 'General Manager',
+      company: 'GEP Pro-Tech Academy',
+      date: '2024 - Present',
       description:
         'Developed and maintained web applications using React and Node.js. Collaborated with designers to implement UI/UX improvements.',
     },
     {
       id: 3,
-      position: 'Junior Developer',
-      company: 'StartUp Labs',
-      date: '2017 - 2019',
+      position: 'Chief Technology Officer (CTO)',
+      company: 'Mira Edge',
+      date: '2024 - Present',
       description:
-        'Assisted in building and testing new features for various client projects. Gained experience with modern web development technologies.',
+        'Taking part in building and testing new features of the upcoming real estate application SPOTFLI.',
     },
   ];

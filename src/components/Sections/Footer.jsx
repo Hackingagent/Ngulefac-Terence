@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
 import { socialLinks } from '../../data/socialLinks';
+import logo from '../../assets/logo3.jpeg'
 
 const Footer = () => {
   return (
@@ -13,7 +14,13 @@ const Footer = () => {
         viewport={{ once: true }}
       >
         <FooterLogo>
-          <span>{"<JE />"}</span>
+          <img 
+            style={{
+              height: '100px',
+              borderRadius: '50%'
+            }}
+            src={logo}
+          />
         </FooterLogo>
 
         <FooterLinks>
@@ -27,7 +34,7 @@ const Footer = () => {
         </FooterLinks>
 
         <FooterCopyright>
-          <p>&copy; {new Date().getFullYear()} Jabuh Emmanuel. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Ngulefac Terence. All rights reserved.</p>
         </FooterCopyright>
       </FooterContent>
     </FooterContainer>

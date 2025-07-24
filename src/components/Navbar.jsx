@@ -3,16 +3,26 @@ import styled from 'styled-components';
 import { motion } from 'framer-motion';
 import { FaSun, FaMoon, FaBars, FaTimes } from 'react-icons/fa';
 import { navLinks } from '../data/navLinks';
+import logo from '../assets/logo2.jpeg';
 
 const Navbar = ({ toggleTheme, theme, toggleSidebar }) => {
   return (
+
     <NavContainer>
       <Logo
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.5 }}
       >
-        <span>{"<NT />"}</span>
+        {/* <span>{"<NT />"}</span> */}
+
+        <img
+          style={{
+            height: '50px',
+            borderRadius: '50%',
+            // height: '50px'
+          }}
+        src={logo} />
       </Logo>
 
       <NavLinks>

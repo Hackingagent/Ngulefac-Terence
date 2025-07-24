@@ -1,4 +1,4 @@
-import image from '../assets/terence.jpg';
+import image from '../assets/terence2.jpg';
 
 export const aboutData = {
     image: image, // Replace with your image

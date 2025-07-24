@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
 import { FaPaperPlane, FaMapMarkerAlt, FaPhone, FaEnvelope } from 'react-icons/fa';
+import emailjs from 'emailjs-com'; // Import EmailJS
 
 const ContactSection = () => {
   const [formData, setFormData] = useState({
@@ -19,12 +20,22 @@ const ContactSection = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle form submission
-    console.log(formData);
-    setFormData({
-      name: '',
-      email: '',
-      message: ''
+    
+
+    // Using EmailJS to send the email
+    emailjs.send('service_crwpwtu', 'template_f0u0pld', formData, 'TunaijL5HPWUBcT3U')
+      .then((response) => {
+        console.log('Email sent successfully!', response.status, response.text);
+        alert('message sent successfully');
+        // Reset form
+        setFormData({
+          name: '',
+          email: '',
+          message: ''
+        });
+      })
+      .catch((error) => {
+        console.error('Failed to send email:', error);
     });
   };
 
@@ -53,7 +64,7 @@ const ContactSection = () => {
             </ContactIcon>
             <div>
               <h4>Location</h4>
-              <p>Yaoundé, Cameroon</p>
+              <p>Bamenda, Cameroon</p>
             </div>
           </ContactInfoItem>
 
@@ -63,7 +74,8 @@ const ContactSection = () => {
             </ContactIcon>
             <div>
               <h4>Email</h4>
-              <p>contact@jabuh.cm</p>
+              <a href='mailto::terencen143@icloud.com'>terencen143@icloud.com</a> <br/>
+              <a href='mailto::telluriumtriol@gmail.com'>telluriumtriol@gmail.com</a>
             </div>
           </ContactInfoItem>
 
@@ -73,7 +85,7 @@ const ContactSection = () => {
             </ContactIcon>
             <div>
               <h4>Phone</h4>
-              <p>+237 6XX XXX XXX</p>
+              <p>+237 683 523 840</p>
             </div>
           </ContactInfoItem>
         </ContactInfo>
