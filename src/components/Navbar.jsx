@@ -130,7 +130,6 @@ const ThemeToggle = styled(motion.div)`
   }
 
   @media screen and (max-width: 768px) {
-    display: none;
   }
 `;
 
