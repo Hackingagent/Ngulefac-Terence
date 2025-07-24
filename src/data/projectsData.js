@@ -1,5 +1,6 @@
 import complain from '../assets/images/projects/student_complain.jpeg'
 import grant from '../assets/images/projects/grant_ease.jpg';
+import portfolio from '../assets/images/projects/portfolio.jpg';
 
 export const projectsData = [
     {
@@ -24,12 +25,12 @@ export const projectsData = [
     },
     {
       id: 3,
-      title: 'Weather Dashboard',
+      title: 'SPOTFLI',
       description:
-        'A weather application that displays current and forecasted weather data for any location.',
+        'A real estate web platform that enables the population to look for and rent or buy properties, book for service, and also for hotels booking.',
       image: 'https://via.placeholder.com/600x400',
-      tags: ['Web', 'API'],
-      github: 'https://github.com/yourusername/weather-app',
+      tags: ['Web', 'MERN'],
+      // github: 'https://github.com/yourusername/weather-app',
       demo: 'https://weather-app-demo.com',
     },
     {
@@ -47,10 +48,10 @@ export const projectsData = [
       title: 'Portfolio Website',
       description:
         'A personal portfolio website to showcase projects and skills.',
-      image: 'https://via.placeholder.com/600x400',
-      tags: ['Web', 'UI/UX'],
-      github: 'https://github.com/yourusername/portfolio',
-      demo: 'https://yourportfolio.com',
+      image: portfolio,
+      tags: ['Web', 'React', 'UI/UX'],
+      github: 'https://github.com/Hackingagent/Ngulefac-Terence.git',
+      demo: 'https://ngulefac-terence.vercel.app/',
     },
     {
       id: 6,
