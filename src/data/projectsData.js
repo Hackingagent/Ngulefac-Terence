@@ -1,6 +1,8 @@
 import complain from '../assets/images/projects/student_complain.jpeg'
 import grant from '../assets/images/projects/grant_ease.jpg';
 import portfolio from '../assets/images/projects/portfolio.jpg';
+import joverto from '../assets/images/projects/joverto.jpg';
+import spotfli from '../assets/images/projects/spotfli.png';
 
 export const projectsData = [
     {
@@ -28,7 +30,7 @@ export const projectsData = [
       title: 'SPOTFLI',
       description:
         'A real estate web platform that enables the population to look for and rent or buy properties, book for service, and also for hotels booking.',
-      image: 'https://via.placeholder.com/600x400',
+      image: spotfli,
       tags: ['Web', 'MERN'],
       // github: 'https://github.com/yourusername/weather-app',
       demo: 'https://weather-app-demo.com',
@@ -55,12 +57,12 @@ export const projectsData = [
     },
     {
       id: 6,
-      title: 'REST API Service',
+      title: 'Photo Studio Website',
       description:
         'A backend API service with authentication, database integration, and documentation.',
-      image: 'https://via.placeholder.com/600x400',
-      tags: ['API', 'Node.js'],
-      github: 'https://github.com/yourusername/api-service',
-      demo: 'https://api-service-docs.com',
+      image: joverto,
+      tags: ['Web', 'React', 'UI/UX'],
+      // github: 'https://github.com/yourusername/api-service',
+      demo: 'https://joverto-studio.vercel.app/',
     },
   ];
